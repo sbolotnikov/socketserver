@@ -8,6 +8,7 @@
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "http": "^0.0.1-security",
+    "node": "^18.4.0",
     "nodemon": "^2.0.18",
     "socket.io": "^4.5.1"
   },
