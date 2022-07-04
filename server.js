@@ -21,6 +21,7 @@ io.on('connection', socket => {
     socket.on("join room", ({roomID, codeword}) => {
         if (codeword!==process.env.CODEWORD) {
             socket.emit("room full");
+            console.log("connection block");
             return;
         } else 
         if (users[roomID]) {
